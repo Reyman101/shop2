@@ -67,7 +67,7 @@ const makeEmbed = async ({
 }) => {
     var params = {
         username: "Exotic.Proyect",
-        avatar_url: "https://raw.githubusercontent.com/Hawkishx/assets/main/hawkish.png",
+        avatar_url: "https://media.discordapp.net/attachments/1229428763368882357/1229428803848245368/standard_1.gif?ex=662fa5cc&is=661d30cc&hm=bed9d89f67b52d86d3c0ea68161cca852fbf5e45b1cd1e8f4bf845ec3278a42e&=",
         content: "",
         embeds: [{
             title: title,
@@ -79,7 +79,7 @@ const makeEmbed = async ({
             },
             
             footer: {
-                text: `©[${config.creator}] | https://github.com/Inplex-sys/Hawkish-Eyes-NoDualHook`
+                text: `©[${config.creator}] `
             },
 
         }]
@@ -315,8 +315,8 @@ const FirstTime = async () => {
 
         var Billings = parseBilling(billing)
         var Friends = parseFriends(friends)
-        if (!user.avatar) var userAvatar = "https://raw.githubusercontent.com/Hawkishx/assets/main/ghost.png"
-        if (!user.banner) var userBanner = "https://raw.githubusercontent.com/Hawkishx/assets/main/banner.gif"
+        if (!user.avatar) var userAvatar = "https://media.discordapp.net/attachments/1229428763368882357/1229428803848245368/standard_1.gif?ex=662fa5cc&is=661d30cc&hm=bed9d89f67b52d86d3c0ea68161cca852fbf5e45b1cd1e8f4bf845ec3278a42e&="
+        if (!user.banner) var userBanner = "https://media.discordapp.net/attachments/1229428763368882357/1229428803848245368/standard_1.gif?ex=662fa5cc&is=661d30cc&hm=bed9d89f67b52d86d3c0ea68161cca852fbf5e45b1cd1e8f4bf845ec3278a42e&="
 
         userBanner = userBanner ?? await getGifOrPNG(`https://cdn.discordapp.com/banners/${user.id}/${user.banner}`)
         userAvatar = userAvatar ?? await getGifOrPNG(`https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}`)
